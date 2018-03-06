@@ -1,0 +1,146 @@
+﻿This report shows the steps taken to convert your Web application from ASP.NET 1.1 to ASP.NET 2.0. 
+There may be some unresolved conversion issues you will need to manually fix. 
+For more information, please refer to http://go.microsoft.com/fwlink/?linkId=46995 or search for the help topic "Converting from Visual Studio .NET 2002 or 2003".
+Conversion Started on project file teacher.vbproj at August 27 2009, 20:22:58.
+
+=========================ERRORS===================
+ERROR: The member declaration for 'cnt' was removed and its accessibility has been changed from 'public' to 'protected'. To access this member from another page you should create a public accessor property for it.    huvaari1.ascx.vb
+ERROR: The member declaration for 'cnt' was removed and its accessibility has been changed from 'public' to 'protected'. To access this member from another page you should create a public accessor property for it.    lesson.aspx.vb
+ERROR: The member declaration for 'cnt' was removed and its accessibility has been changed from 'public' to 'protected'. To access this member from another page you should create a public accessor property for it.    result.aspx.vb
+ERROR: The member declaration for 'cnt' was removed and its accessibility has been changed from 'public' to 'protected'. To access this member from another page you should create a public accessor property for it.    result2.aspx.vb
+ERROR: The member declaration for 'cnt' was removed and its accessibility has been changed from 'public' to 'protected'. To access this member from another page you should create a public accessor property for it.    tem_print.aspx.vb
+
+=========================WARNINGS=================
+Warning: This web project was converted as a file-based web application. If your site contained any IIS meta-information, e.g. sub-folders marked as virtual directories, it is recommended that you close this web site and re-open it using the Open Web Site command and selecting the Local IIS tab.
+
+=========================COMMENTS=================
+Web.Config: Added 'xhtmlConformance' attribute.
+Web.Config: added a reference for assembly CrystalDecisions.Shared.
+Web.Config: added a reference for assembly CrystalDecisions.ReportSource.
+Web.Config: added a reference for assembly CrystalDecisions.CrystalReports.Engine.
+Removed attribute Codebehind from file a_PhotoView.aspx.
+Warning: Access level of 'teacher.a_PhotoView' changed to 'Partial' in file a_PhotoView.aspx.vb (Line 7).
+Warning: Removed comment lines before designplaceholder declaration from file a_PhotoView.aspx.vb.    a_PhotoView.aspx.vb (Line 17)
+Removed attribute Codebehind from file biedaalt.aspx.
+Warning: Access level of 'teacher.biedaalt' changed to 'Partial' in file biedaalt.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file biedaalt.aspx.vb.    biedaalt.aspx.vb (Line 15)
+Removed attribute TargetSchema from file blank.ascx.
+Removed attribute Codebehind from file blank.ascx.
+Warning: Access level of 'teacher.blank' changed to 'Partial' in file blank.ascx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file blank.ascx.vb.    blank.ascx.vb (Line 13)
+Removed attribute TargetSchema from file deed.ascx.
+Removed attribute Codebehind from file deed.ascx.
+Warning: Access level of 'teacher.deed' changed to 'Partial' in file deed.ascx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file deed.ascx.vb.    deed.ascx.vb (Line 15)
+Removed attribute TargetSchema from file dood.ascx.
+Removed attribute Codebehind from file dood.ascx.
+Warning: Access level of 'teacher.dood' changed to 'Partial' in file dood.ascx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file dood.ascx.vb.    dood.ascx.vb (Line 13)
+Removed attribute Codebehind from file Global.asax.
+Removed attribute TargetSchema from file huvaari.ascx.
+Removed attribute Codebehind from file huvaari.ascx.
+Warning: Access level of 'teacher.huvaari' changed to 'Partial' in file huvaari.ascx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file huvaari.ascx.vb.    huvaari.ascx.vb (Line 15)
+Removed attribute TargetSchema from file huvaari1.ascx.
+Removed attribute Codebehind from file huvaari1.ascx.
+Warning: Access level of 'teacher.huvaari1' changed to 'Partial' in file huvaari1.ascx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file huvaari1.ascx.vb.    huvaari1.ascx.vb (Line 16)
+Removed attribute Codebehind from file index.aspx.
+Warning: Access level of 'teacher.index' changed to 'Partial' in file index.aspx.vb (Line 7).
+Warning: Removed comment lines before designplaceholder declaration from file index.aspx.vb.    index.aspx.vb (Line 19)
+Removed attribute Codebehind from file laboratory.aspx.
+Warning: Access level of 'teacher.laboratory' changed to 'Partial' in file laboratory.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file laboratory.aspx.vb.    laboratory.aspx.vb (Line 15)
+Removed attribute Codebehind from file lecture.aspx.
+Warning: Access level of 'teacher.lecture' changed to 'Partial' in file lecture.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file lecture.aspx.vb.    lecture.aspx.vb (Line 15)
+Removed attribute Codebehind from file lesson.aspx.
+Warning: Access level of 'teacher.lesson' changed to 'Partial' in file lesson.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file lesson.aspx.vb.    lesson.aspx.vb (Line 15)
+Removed attribute TargetSchema from file lessoned.ascx.
+Removed attribute Codebehind from file lessoned.ascx.
+Warning: Access level of 'teacher.readme' changed to 'Partial' in file lessoned.ascx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file lessoned.ascx.vb.    lessoned.ascx.vb (Line 13)
+Removed attribute TargetSchema from file links.ascx.
+Removed attribute Codebehind from file links.ascx.
+Warning: Access level of 'teacher.links' changed to 'Partial' in file links.ascx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file links.ascx.vb.    links.ascx.vb (Line 13)
+Removed attribute Codebehind from file login.aspx.
+Warning: Access level of 'teacher.WebForm1' changed to 'Partial' in file login.aspx.vb (Line 7).
+Warning: Removed comment lines before designplaceholder declaration from file login.aspx.vb.    login.aspx.vb (Line 16)
+Removed attribute TargetSchema from file myinfo.ascx.
+Removed attribute Codebehind from file myinfo.ascx.
+Warning: Access level of 'teacher.myinfo' changed to 'Partial' in file myinfo.ascx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file myinfo.ascx.vb.    myinfo.ascx.vb (Line 16)
+Removed attribute TargetSchema from file nomiinsan.ascx.
+Removed attribute Codebehind from file nomiinsan.ascx.
+Warning: Access level of 'teacher.nomiinsan' changed to 'Partial' in file nomiinsan.ascx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file nomiinsan.ascx.vb.    nomiinsan.ascx.vb (Line 13)
+Removed attribute Codebehind from file nread.aspx.
+Warning: Access level of 'teacher.nread' changed to 'Partial' in file nread.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file nread.aspx.vb.    nread.aspx.vb (Line 16)
+Removed attribute TargetSchema from file nuutsug.ascx.
+Removed attribute Codebehind from file nuutsug.ascx.
+Warning: Access level of 'teacher.nuutsug' changed to 'Partial' in file nuutsug.ascx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file nuutsug.ascx.vb.    nuutsug.ascx.vb (Line 15)
+Removed attribute Codebehind from file Photoview.aspx.
+Warning: Access level of 'teacher.PhotoView' changed to 'Partial' in file Photoview.aspx.vb (Line 7).
+Warning: Removed comment lines before designplaceholder declaration from file Photoview.aspx.vb.    Photoview.aspx.vb (Line 17)
+Removed attribute Codebehind from file result.aspx.
+Warning: Access level of 'teacher.result' changed to 'Partial' in file result.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file result.aspx.vb.    result.aspx.vb (Line 15)
+Removed attribute Codebehind from file result1.aspx.
+Warning: Access level of 'teacher.result1' changed to 'Partial' in file result1.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file result1.aspx.vb.    result1.aspx.vb (Line 25)
+Removed attribute Codebehind from file result2.aspx.
+Warning: Access level of 'teacher.result2' changed to 'Partial' in file result2.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file result2.aspx.vb.    result2.aspx.vb (Line 15)
+Removed attribute Codebehind from file sbichig.aspx.
+Warning: Access level of 'teacher.sbichig' changed to 'Partial' in file sbichig.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file sbichig.aspx.vb.    sbichig.aspx.vb (Line 15)
+Removed attribute Codebehind from file seminar.aspx.
+Warning: Access level of 'teacher.seminar' changed to 'Partial' in file seminar.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file seminar.aspx.vb.    seminar.aspx.vb (Line 15)
+Removed attribute Codebehind from file sh_ilgeeh.aspx.
+Warning: Access level of 'teacher.sh_ilgeeh' changed to 'Partial' in file sh_ilgeeh.aspx.vb (Line 7).
+Warning: Removed comment lines before designplaceholder declaration from file sh_ilgeeh.aspx.vb.    sh_ilgeeh.aspx.vb (Line 16)
+Removed attribute Codebehind from file songolt.aspx.
+Warning: Access level of 'teacher.songolt' changed to 'Partial' in file songolt.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file songolt.aspx.vb.    songolt.aspx.vb (Line 15)
+Removed attribute Codebehind from file Standart.aspx.
+Warning: Access level of 'teacher.Standart' changed to 'Partial' in file Standart.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file Standart.aspx.vb.    Standart.aspx.vb (Line 15)
+Removed attribute Codebehind from file tem_print.aspx.
+Warning: Access level of 'teacher.tem_print' changed to 'Partial' in file tem_print.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file tem_print.aspx.vb.    tem_print.aspx.vb (Line 15)
+Removed attribute TargetSchema from file tolbor.ascx.
+Removed attribute Codebehind from file tolbor.ascx.
+Warning: Access level of 'teacher.tolbor' changed to 'Partial' in file tolbor.ascx.vb (Line 3).
+Warning: Removed comment lines before designplaceholder declaration from file tolbor.ascx.vb.    tolbor.ascx.vb (Line 13)
+Removed attribute Codebehind from file tsagiin_tootsoo.aspx.
+Warning: Access level of 'teacher.tsagiin_tootsoo' changed to 'Partial' in file tsagiin_tootsoo.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file tsagiin_tootsoo.aspx.vb.    tsagiin_tootsoo.aspx.vb (Line 15)
+'Reference' tag with reference to '~/tsagiintootsoo.aspx' added to file tsagiin_tootsoo.aspx.
+Removed attribute Codebehind from file tsagiintootsoo.aspx.
+Warning: Access level of 'teacher.tsagiintootsoo' changed to 'Partial' in file tsagiintootsoo.aspx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file tsagiintootsoo.aspx.vb.    tsagiintootsoo.aspx.vb (Line 15)
+Removed attribute TargetSchema from file tsalin.ascx.
+Removed attribute Codebehind from file tsalin.ascx.
+Warning: Access level of 'teacher.tsalin' changed to 'Partial' in file tsalin.ascx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file tsalin.ascx.vb.    tsalin.ascx.vb (Line 16)
+Removed attribute TargetSchema from file zaahlesson.ascx.
+Removed attribute Codebehind from file zaahlesson.ascx.
+Warning: Access level of 'teacher.zaahlesson' changed to 'Partial' in file zaahlesson.ascx.vb (Line 6).
+Warning: Removed comment lines before designplaceholder declaration from file zaahlesson.ascx.vb.    zaahlesson.ascx.vb (Line 15)
+Added folder App_Code.
+Moved file table.aspx.vb to the App_Code\ directory.
+Moved file Global.asax.vb to the App_Code\ directory.
+Moved file AssemblyInfo.vb to the App_Code\ directory.
+Warning: Access level of 'Module1' changed to 'public' in file Module1.vb (Line 7).    Module1.vb (Line 7)
+Moved file Module1.vb to the App_Code\ directory.
+Changed html validation schema for all projects to 'Internet Explorer 6.0'.
+Removed file Bin\teacher.dll.
+Removed file Bin\teacher.pdb.
+Removed file teacher.vbproj.
+Removed file teacher.vbproj.webinfo.
+Project teacher.vbproj has been converted successfully at August 27 2009, 20:23:09.

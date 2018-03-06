@@ -1,0 +1,3 @@
+<%@ Control Language="VB" AutoEventWireup="false" CodeFile="song.ascx.vb" Inherits="song" %>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink id="HyperLink1" runat="server" Visible="False">Сонголт 1</asp:HyperLink><br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:HyperLink id="HyperLink2" runat="server" Visible="False" NavigateUrl="hhuvaari.aspx">Хичээлийн хуваарь</asp:HyperLink>

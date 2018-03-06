@@ -1,0 +1,50 @@
+BODY
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Verdana, Tahoma, 'MS Serif', 'MS Sans Serif', Arial
+}
+TABLE
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Verdana, Tahoma, 'MS Serif', 'MS Sans Serif', Arial
+}
+TD
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Verdana, Tahoma, 'MS Serif', 'MS Sans Serif', Arial
+}
+A:link
+{
+    COLOR: #666699;
+    TEXT-DECORATION: none
+}
+A:visited
+{
+    COLOR: #666699;
+    TEXT-DECORATION: none
+}
+A:active
+{
+    COLOR: #666699;
+    TEXT-DECORATION: none
+}
+A:hover
+{
+    COLOR: #666699;
+    TEXT-DECORATION: underline
+}
+HR
+{
+    COLOR: #666699;
+    SIZE: 1
+}
+INPUT
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Verdana, Tahoma, 'MS Serif', 'MS Sans Serif', Arial
+}
+SELECT
+{
+    FONT-SIZE: 8pt;
+    FONT-FAMILY: Verdana, Tahoma, Arial, 'MS Sans Serif', 'MS Serif'
+}

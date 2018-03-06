@@ -1,0 +1,30 @@
+<HTML>
+  <HEAD>
+    <META http-equiv="Content-Type" content="text/html; charset=utf-8">
+  </HEAD>
+  <BODY onLoad='CheckUpdate();' topmargin=0 leftmargin=0 marginwidth=0 marginheight=0>
+    <CENTER>
+    <SCRIPT src="embed.js"></SCRIPT>
+    <SCRIPT language="javascript">
+      var UpdateChecked = false;
+      var version = "3,0,2007,11130";
+      var src = "leccture Maker suvd.files/leccture Maker suvd.lmf";
+      var width = 990;
+      var height = 660;
+      var DownloadAnimation = true;
+      var DownloadAnimationURL = "";
+      var AutoScreenSize = false;
+      var AutoFullScreen = false;
+
+      SetupViewer();
+
+      if (IsSetupInstalled())
+      {
+        CheckUpdate();
+      }
+
+      ShowContent();
+    </SCRIPT>
+    </CENTER>
+  </BODY>
+</HTML>

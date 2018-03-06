@@ -1,0 +1,71 @@
+function SetupViewer()
+{
+  document.write(
+  '<OBJECT id="objSetupCaller" codebase="http://www.lecturemaker.co.kr/lecturemakerviewer/unicode/DaulLMSetupCallerAX.cab#version=' + version + '"\
+     classid="CLSID:D6C22D2C-F395-4410-A089-E3142C256528"\
+     standby="Downloading the LectureMakerViewer..."\
+     width="0"\
+     height="0">\
+     <PARAM name="sBannerURL" value="http://www.lecturemaker.co.kr/lecturemakerviewer/unicode/setup_banner.bmp">\
+     <SPAN>An error has occurred while loading the installation program. If you have installed Windows XP Service Pack 2, then please install the Active X Control.</SPAN>\
+   </OBJECT>');
+}
+
+function ShowContent()
+{
+  document.write(
+  '<OBJECT classid="clsid:C668FE6B-4CE4-4985-B08E-E53A4BFAEF10" width=' + width + ' height=' + height +'>\
+     <PARAM name="src" value="' + src + '">\
+     <PARAM name="DownloadAnimation" value="' + DownloadAnimation + '">\
+     <PARAM name="DownloadAnimationURL" value="' + DownloadAnimationURL + '">\
+     <PARAM name="AutoScreenSize" value="' + AutoScreenSize + '">\
+     <PARAM name="AutoFullScreen" value="' + AutoFullScreen + '">\
+     <EMBED src="' + src + '" width=' + width + ' height=' + height + ' type="application/x-lecturemaker">\
+   </OBJECT>');
+}
+
+function CheckUpdate()
+{
+  if (UpdateChecked)
+    return;
+
+  if (!document.objSetupCaller)
+    return;
+
+  var iReturn = objSetupCaller.CallSetup(
+    "http://www.lecturemaker.co.kr/lecturemakerviewer/unicode/DaulSoftSetup.cab",
+    "DaulSoftSetup.exe",
+    "http://www.lecturemaker.co.kr/lecturemakerviewer/unicode/DaulSoftSetupVersion.txt",
+    "http://www.lecturemaker.co.kr/lecturemakerviewer/unicode/LectureMakerViewerUnicodeEng.xml");
+  switch(iReturn)
+  {
+    case 1: // Setup Success
+      location.reload();
+      break;
+    case 2: // Update Success
+      break;
+    case 3: // No Update
+      break;
+    default: // Cancel Setup
+      break;
+  }
+
+  UpdateChecked = true;
+}
+
+function IsSetupInstalled()
+{
+  try
+  {
+    var ActiveX = new ActiveXObject("DAULLMSETUPCALLERAX.DaulLMSetupCallerAXCtrl.1");
+
+    if (ActiveX)
+      return true;
+    else
+      return false;
+  }
+  catch(ex)
+  {
+    return false;
+  }
+}

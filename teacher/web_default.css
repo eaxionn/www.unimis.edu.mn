@@ -1,0 +1,100 @@
+/* CSS Document */
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+}
+.chuka {
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #0f1d2b;
+}
+.copyright {
+	font-family: Tahoma;
+	font-size: 10px;
+	color: #0f1d2b;
+}
+A:link { 
+         font-family: Tahoma;
+         font-size: 10px;		 
+		 color: #003399;
+		 TEXT-DECORATION: none;
+		  } 
+A:visited {
+         font-family: Tahoma;
+		 font-size: 10px;		 
+		 color: #003399;
+		 TEXT-DECORATION: none }		  
+A:hover { 
+         font-family: Tahoma;
+		 font-size: 10px;		 
+		 color: #003399;
+		 TEXT-DECORATION: underline }
+td {
+	font-family: Tahoma;
+	font-size: 10px;		
+	color: #0f1d2b;
+	 }
+
+.headers 
+{
+	background-color: #B4E873;
+	font-family: Tahoma;
+	font-size: 11px;
+	font-weight: bold;	
+	color: #2E480D;
+}
+.cost { font-family: Tahoma;
+	    font-size: 12px;
+	    font-weight: bold;		
+	    color: #0f1d2b
+}
+.button
+{    Height: 20px;
+	 Width: 80px;
+	 Border-width: 1px;
+	 Border-Color: #2E480D;
+	 Border-style: double;
+	 background-color: #B4E873;
+	 Font-family: Tahoma;
+	 Font-size: 7pt;
+	 Font-weight: bold;
+	 Color: #2E480D
+}
+.commandbutton
+{    Height: 20px;
+	 Width: 40px;
+	 Border-width: 1px;
+	 Border-Color: #2E480D;
+	 Border-style: double;
+	 background-color: #B4E873;
+	 Font-family: Tahoma;
+	 Font-size: 7pt;
+	 Font-weight: bold;
+	 Color: #2E480D
+}
+.images
+{    Height: 128px;
+	 Width: 187px;
+	 Border-width: 1px;
+	 Border-Color: Gray	 
+}
+.detail
+{
+	font-family: Tahoma;
+	font-size: 12px;
+	font-weight: bold;	
+	color: #2E480D;
+}
+.style1
+{
+	color: #FFFFFF;
+}
+.style3 {
+	color: #1a4e81;
+	font-weight: bold;
+}
+.style6 {color: #DFE9F2}

@@ -1,0 +1,64 @@
+
+em{ color: #999999;}
+
+.input{
+font-family: tahoma;
+font-size:11px;
+COLOR: #333333;
+}
+
+.button {
+font-family: tahoma;
+font-size:10px;
+COLOR: #FFFFFF;
+font-weight: bold;
+background-color:#ED2200;
+border:#C51C00 1px solid;
+}
+
+A:link {     COLOR: #2879BA; TEXT-DECORATION: none; }
+A:visited {  COLOR: #2879BA; TEXT-DECORATION: none; }
+A:hover {    COLOR: #333333; TEXT-DECORATION: underline; }
+
+.text1{
+font-family: verdana, tahoma;
+font-size:10px;
+COLOR: #333333;
+}
+
+.text_content{
+font-family: verdana, tahoma;
+font-size:11px;
+COLOR: #000000;
+}
+
+.box_title{
+font-family: verdana, tahoma;
+font-size:10px;
+COLOR: #FFFFFF;
+font-weight: bold;
+padding-left:10px;
+padding-right:12px;
+}
+
+table {
+font-family: verdana, tahoma;
+font-size:10px;
+
+}
+
+.category_title{
+font-family: verdana, tahoma;
+font-size:17px;
+color: #FF7E00;
+font-weight: bold;
+letter-spacing: -1;
+}
+
+.headerlabel
+{
+	font-family:Tahoma;
+	font-size:11px;
+	color:#585858;
+	font-weight:bold;
+}
